@@ -1,0 +1,27 @@
+html, .content{
+    background: rgb(43, 43, 43);
+    color: white;
+}
+.content{
+    padding: 10px;
+}
+.card{
+    border: solid 1px;
+    margin: 10px;
+    background-color: #303030;
+    opacity: 0.8;
+    background-image: linear-gradient(to right, #212121, #212121 5px, #303030 5px, #303030 );
+    background-size: 10px 100%;
+    color: white;
+}
+.card h3,.card h2{
+    margin: 10px;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
